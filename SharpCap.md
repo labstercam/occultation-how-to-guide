@@ -10,7 +10,7 @@ Some general setup tips.
 1. Set your location coordinates
 2. Set up for Plate Solving. Use the built in Sharp Solve. Download the SharpSolve databases that suit your field of view. Can work down to ~0.1 degrees FOV
 3. Install Occultation Manager addin
-4. Install the manufactueres drivers for your camera. Generic ASCOM or DirectShow drivers perform poorly and have limited camera functionality
+4. Install the manufacturer's drivers for your camera. Generic ASCOM or DirectShow drivers perform poorly and have limited camera functionality
 
    
 
