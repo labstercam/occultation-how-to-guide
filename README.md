@@ -51,7 +51,7 @@ A tracking mount can use SharpCap Push To assistant.
 
 A dobsonian or fixed mount can use the Sharpcap Push To assistant to prepoint the telescope, but it is more time consuming and difficult
 
-Guiding or highly accurate tracking as long as you can keep the star in the image.
+Guiding or highly accurate tracking  is not necessary as long as you can keep the star in the image.
 
 ## Camera Details
 Almost any astronomy camera can be used for occultations, so start with the camera you have, and if necessary upgrade later. The recommendation for beginners is to start using the cameras you have and just add the simple and cheap/free timing options.
