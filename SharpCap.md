@@ -1,6 +1,6 @@
 # Using SharpCap for Occultations
 
-SharpCap is recommended for occultations as it supports specialist GPS cameras for occultations, uses the ADV occulation video format, and has the Occultation Manager add in available.
+SharpCap is recommended for occultations as it supports specialist GPS cameras for occultations, uses the ADV occulation video format, and has the Occultation Manager add in available. Robin Glover (developer/owner) has always supported the occultation community and added many feastures specifically for occultations.
 
 SharpCap is the ONLY consumer level software that has known timestamp performance which is essential for accurate timing.
 
