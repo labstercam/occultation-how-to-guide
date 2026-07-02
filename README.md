@@ -1,9 +1,6 @@
 # occultation-how-to-guide
 How to do Occultation observations using modern equipment. A practical step-by-step guide for setting up software and equipment to perform occultations observations
 
-If you just want to jump into the step-by-step instructions go here
-
-https://github.com/labstercam/occultation-how-to-guide/blob/main/README.md#getting-started---step-by-step
 
 # What are Occultations?
 An occultation occurs when one celestial body moves in front of another, blocking (occulting) its light. In a lunar eclipse the moon occults the sun.
@@ -11,6 +8,16 @@ An occultation occurs when one celestial body moves in front of another, blockin
 When an asteroid occults a star it briefly blocks the light. By accurately measuring the time of the disappearance and reappearance the position and size of the asteroid can be determined, and sometimes much more.
 
 Asteroid occultations provide the most acurate measurements of asteroid position and size of any method, and can discover rings, moons around asteroids and atmospheres.
+
+# Quick Start
+If you just want to jump into the step-by-step instructions for the minimum software setup required go here: https://github.com/labstercam/occultation-how-to-guide/blob/main/README.md#getting-started---step-by-step
+
+For information on how to set up SharpCap for occultations go here: https://github.com/labstercam/occultation-how-to-guide/blob/main/SharpCap.md
+
+For tips on target finding go here: https://github.com/labstercam/occultation-how-to-guide/blob/main/Target%20Finding.md
+
+For resources include comprehensive guides see Resoucre 
+
 
 # What Equipment is Needed?
 If you do astrophotography or planetary imaging you likely already have all the gear needed, just need to add accurate timing.
@@ -171,7 +178,18 @@ Set up the Occult Tools addin to enable prediction details and star charts. Foll
 Configure which feeds you want to use.
 
 
-
 # Resources
+Resources and further information. Note that this How To Guide focuses on how to use modern CMOS cameras and Sharpcap to do occultations. It does not cover other topics that have already been included in other resources, or are common astronomy practice, or outdated methods.
+
+Note that many of these resources have not been updated for a long time and may refer to outdated information or obsolete equipment.
+
+RASNZ Observing Occultations Using Video:  https://www.occultations.org.nz/videotime/manual.htm
+
+IOTA Europe Resources Page: https://iota-es.de/guidelines.html
+
+IOTA NA Observing Information: https://occultations.org/observing/
+
+
+
 https://www.occultations.org.nz/videotime/manual.htm
 
