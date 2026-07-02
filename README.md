@@ -14,10 +14,9 @@ If you do astrophotography or planetary imaging you likely already have all the 
 Just start with what you have and upgrade later if you want.
 
 - Telescope of any type. Sweet spot is 8-12", but smaller scopes are useful for mobile observations, and larger scopes can go deeper
-- Astronomy camera. MONO planetary cameras are ideal (very senstive and cheap). Almost any astronomy camera can be used
+- Astronomy camera. MONO planetary cameras are ideal (very sensitive and cheap). Almost any astronomy camera can be used
 - Mount. GOTO tracking mount with PC control is ideal, but a simple motorised tracking mount, non-tracking mount of dobsonian can be used
-- Astronomy camera. MONO planetary cameras are ideal (very senstive and cheap). Almost any astronomy camera can be used
-- Windows PC with Windows 10/11. Low sped is OK, a few GB of free disk space
+- Windows PC with Windows 10/11. Low spec is OK, 10 GB of free disk space minimum
 - Accurate timing
 
   
@@ -26,7 +25,7 @@ The ideal focal length range is 400-1,000 mm for good image scale and a FOV that
 
 Longer focal lengths will work but at some point computer control and platesolving will be essential. Very long focal lengths (2,000+ mm) will start to cause problems with large star sizes.
 
-A focal reducer can be used to get a more favourable focal length. Image quality is not important. Even the cheap GSO focal reducers will work fine. This one gives around 0.4x focal reduction https://astronz.nz/products/focal-reducer-0-5x-1-25
+A focal reducer can be used to get a more favourable focal length and to improve the signal to noise ratio. Image quality is not important. Even the cheap GSO focal reducers will work fine. This one gives around 0.4x focal reduction https://astronz.nz/products/focal-reducer-0-5x-1-25
 
 For SCTs a Meade 3.3x reducer is available, but long out of production.
 
@@ -42,7 +41,7 @@ A dobsonian or fixed mount can use the Sharpcap Push To assistant to prepoint th
 Guiding or highly accurate tracking as long as you can keep the star in the image.
 
 ## Camera Details
-Almost any astronomy camera can be used for occultations, so start with the camera you have, and if necessary upgrade later. The recommendation for beginners is to start using the cameras you have, add the simple and cheap timing options.
+Almost any astronomy camera can be used for occultations, so start with the camera you have, and if necessary upgrade later. The recommendation for beginners is to start using the cameras you have and just add the simple and cheap/free timing options.
 
 The main requirements is being able to record at a fast enough frame rate without dropped frames or recording issues, up to ~25 fps/40 ms exposure. USB 3 cameras can usually do this. USB 2 cameras usually can't. Most modern astronomy cameras are USB 3, USB only used for some guide cameras and cheap colour cameras.
 
@@ -113,15 +112,16 @@ For occultations the recording frames must be timestamped with an accuracy of mi
 For beginners recommend using NTP timing  on a windows PC as it is free and easy to set up and work with any camera. Use the NTP Installer https://github.com/labstercam/occultation-ntp-installer. This can give timing accuracy of ~5 ms which is good enough to get started. GPS PPS timing can be added later (cheap DIY build) or upgrade to a dedicated GPS camera.
 
 
-# Getting Started
+# Getting Started - Step by Step
 
 Basic setup to begin doing occultations. More complex software can be installed and learnt later
 
 1. Install NTP timing using https://github.com/labstercam/occultation-ntp-installer . Install Meinberg NTP, NTP Time Server Monitor, and the PC performance enhancements. Do not install the GPS unless you have a GPS PPS or NMEA receiver.
-2. Buy SharpCap Pro licence and install the software www.sharpcap.co.uk . Install drivers for you camera and equipment if necessary.
+2. Buy SharpCap Pro licence and install the software www.sharpcap.co.uk . Install drivers for your camera and equipment if necessary.
 3. Download and install Occultation Manager add-in for SharpCap https://github.com/labstercam/occultation-tools
 4. Download and install TANGRA3 http://www.hristopavlov.net/Tangra3/
 5. Download and install Occult4, minimal setup (see below)
+6. Install the AOTA addin for TANGRA3. Open TANGRA3, go to Settings | Addins. Select "Occult Tools for Tangra", press 'Configure" then browse to the folder where Occult.exe is and select the folder.
 
 ## Occult4 Minimal Setup
 
