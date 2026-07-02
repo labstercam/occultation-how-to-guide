@@ -16,7 +16,7 @@ For information on how to set up SharpCap for occultations go here: https://gith
 
 For tips on target finding go here: https://github.com/labstercam/occultation-how-to-guide/blob/main/Target%20Finding.md
 
-For resources include comprehensive guides see Resoucre 
+For resources include comprehensive guides see Resources https://github.com/labstercam/occultation-how-to-guide/blob/main/README.md#resources
 
 
 # What Equipment is Needed?
