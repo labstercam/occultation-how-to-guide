@@ -4,7 +4,7 @@ How to do Occultation observations using modern equipment. A practical step-by-s
 # What are Occultations?
 An occultation occurs when one celestial body moves in front of another, blocking (occulting) its light. In a lunar eclipse the moon occults the sun.
 
-When an asteroid occults a star it breifly blocks the light. By accurately measuring the time of the disappearance and reappearance the position and size of the asteroid can be deteremined, and sometimes much more.
+When an asteroid occults a star it briefly blocks the light. By accurately measuring the time of the disappearance and reappearance the position and size of the asteroid can be determined, and sometimes much more.
 
 Asteroid occultations provide the most acurate measurements of asteroid position and size of any method, and can discover rings, moons around asteroid and atmospheres.
 
@@ -18,11 +18,11 @@ Just start with what you have and upgrade later if you want.
 - Mount. GOTO tracking mount with PC control is ideal, but a simple motorised tracking mount, non-tracking mount of dobsonian can be used
 - Astronomy camera. MONO planetary cameras are ideal (very senstive and cheap). Almost any astronomy camera can be used
 - Windows PC with Windows 10/11. Low sped is OK, a few GB of free disk space
-- Accurate timing - see below
+- Accurate timing
 
   
 ## Telescope Details
-Ideal focal length range is 400-1,000 mm for good image scale and a FOV that makes it easy to plate solve and find targets. 
+The ideal focal length range is 400-1,000 mm for good image scale and a FOV that makes it easy to plate solve and find targets. 
 
 Longer focal lengths will work but at some point computer control and platesolving will be essential. Very long focal lengths (2,000+ mm) will start to cause problems with large star sizes.
 
@@ -42,7 +42,7 @@ A dobsonian or fixed mount can use the Sharpcap Push To assistant to prepoint th
 Guiding or highly accurate tracking as long as you can keep the star in the image.
 
 ## Camera Details
-Almost any astronomy camera can be used for occultations, so start with the camera you have, and if necessary upgrade later. 
+Almost any astronomy camera can be used for occultations, so start with the camera you have, and if necessary upgrade later. The recommendation for beginners is to start using the cameras you have, add the simple and cheap timing options.
 
 The main requirements is being able to record at a fast enough frame rate without dropped frames or recording issues, up to ~25 fps/40 ms exposure. USB 3 cameras can usually do this. USB 2 cameras usually can't. Most modern astronomy cameras are USB 3, USB only used for some guide cameras and cheap colour cameras.
 
@@ -56,6 +56,12 @@ The Touptek G3M662M is currently the cheapest at about $US180.
 Models using the older IMX462M sensor are nearly as good, slightly lower sensitive and slightly higher noise.
 
 Older model CMOS mono cameras are fine, they will just not be quite as senstive.
+
+For long focal length scopes (3,000+ mm) or if you can't use a focal reducer to get a short enough focal length, cameras with larger pixels are advisable. Cameras using the imx432M sensor have large 9 um pixels, and imx428/429 have 4.5 mm pixels, imx174 5.9 um pixels. These are more expensive and have larger sensors.
+
+There are specialist GPS cameras with built in GPS timing available, but they are expensive (>$US 1,000). https://www.qhyccd.com/qhy174gps-imx174-scientific-cooled-camera/ QHY174GPS uses a sensor from 2014, so is not as senstive as newer cameras. https://dvticam.com/ DVTI+CAM has options for newer, more senstive sensors. ToupTek has a new model with built in GPS, available on special order. https://www.touptekastro.com/products/atr585m. This is the most sensitive and cheapest of the GPS cameras.
+
+ASTRID is a dedicated GPS camera with built in computer that manages and records occultations. It is standalone and does not use a PC to record. https://occultations.org/astrid-details-and-ordering-page/
 
 Colour cameras can be used, with less sensitivity again.
 
@@ -95,11 +101,55 @@ Occult Watcher Mobile (optional). A handy Phone app for listing your events from
 
 Xasteria (optional). A handy phone app that aggregrates weather forecasts etc. ClearOutside and MeteoBlue give good forecasts for New Zealand. Sat24.com gives cloud satellite imagery.
 
+## Timing
+For occultations the recording frames must be timestamped with an accuracy of milli-seconds. Timing options include :
+1. NTP (Network Time Protocol) on windows PC
+2. GPS PPS timing on windows PC
+3. GPS flash timing (external GPS flasher, DIY build or phone app)
+4. Dedicated GPS camera
+
+   
+
+For beginners recommend using NTP timing  on a windows PC as it is free and easy to set up and work with any camera. Use the NTP Installer https://github.com/labstercam/occultation-ntp-installer. This can give timing accuracy of ~5 ms which is good enough to get started. GPS PPS timing can be added later (cheap DIY build) or upgrade to a dedicated GPS camera.
 
 
+# Getting Started
 
+Basic setup to begin doing occultations. More complex software can be installed and learnt later
 
+1. Install NTP timing using https://github.com/labstercam/occultation-ntp-installer . Install Meinberg NTP, NTP Time Server Monitor, and the PC performance enhancements. Do not install the GPS unless you have a GPS PPS or NMEA receiver.
+2. Buy SharpCap Pro licence and install the software www.sharpcap.co.uk . Install drivers for you camera and equipment if necessary.
+3. Download and install Occultation Manager add-in for SharpCap https://github.com/labstercam/occultation-tools
+4. Download and install TANGRA3 http://www.hristopavlov.net/Tangra3/
+5. Download and install Occult4, minimal setup (see below)
 
+## Occult4 Minimal Setup
+
+Occult4 is a very sophisticated program with a lot of features that are not needed when you are starting out, so recommend either the following minimal installs to just keep it easy, or do the full install and take you time to learn how to use Occult4 as necessary.
+
+As a beginner the only Occult4 functionality that is essential is the AOTA analysis. If you choose to use PyMovie/PyOTE you don't need AOTA.
+
+### The minimal setup for Occult4 to use AOTA occultation analysis. Download and minimal install may take 10-20 minutes.
+
+1. Go to http://www.lunar-occultations.com/iota/occult4.htm and follow instructions for download and install using OccultInstaller.zip
+2. Unzip to the required location (see notes on page)
+3. Create desktop shortcut to Occult.exe
+4. Run Occult.exe (may need to approve)
+5. Allow the .NET install if prompted (may already be on your system)
+6. Allow download of InstallResources.zip if prompted.
+7. Allow each downloads when prompted
+
+At this point you will be taken to the Settings page where you can set up email and other users settings. These are not required to be able to use the AOTA analysis so are optional.
+
+You will then be prompted to update a lot of data and resources. Again, these are not required to be able to use the AOTA analysis so are optional at this stage. 
+
+### Minimal Occult4 download for Occult4 Star Charts
+Occult4 generates really nice customisable star charts which are very helpful, but not essential as Occultation Manager can identify the target star and online catalog images are available. Occult4 star charts are better so recommded to install at some stage.
+
+Minimum required are the GAIA catalog downloads (items 40-43) for the magnitude limit you want (recommend mag 16 for 8"+ telescopes). This can be several GB download and if you have a PC with a small capacity drive (e.g. 64BG) this might be a problem.
+
+## Full Occult4 setup
+You will at some stage want the full Occult4 setup to be able to run predictions, examine asteroid and star information, do muulti-chord occultation analysis, double star analysis etc. So at some stage download all the Occult4 resources and complete the install, following the installation guidance on the webpage and the Occult4 help. You may need help or assitance from an experienced observer. 
 
 
 # Resources
