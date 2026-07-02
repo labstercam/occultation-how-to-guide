@@ -118,12 +118,16 @@ For beginners recommend using NTP timing  on a windows PC as it is free and easy
 
 Basic setup to begin doing occultations. More complex software can be installed and learnt later
 
-1. Install NTP timing using https://github.com/labstercam/occultation-ntp-installer . Install Meinberg NTP, NTP Time Server Monitor, and the PC performance enhancements. Do not install the GPS unless you have a GPS PPS or NMEA receiver.
-2. Buy SharpCap Pro licence and install the software www.sharpcap.co.uk . Install drivers for your camera and equipment if necessary.
-3. Download and install Occultation Manager add-in for SharpCap https://github.com/labstercam/occultation-tools
-4. Download and install TANGRA3 http://www.hristopavlov.net/Tangra3/
-5. Download and install Occult4, minimal setup (see below)
-6. Install the AOTA addin for TANGRA3. Open TANGRA3, go to Settings | Addins. Select "Occult Tools for Tangra", press 'Configure" then browse to the folder where Occult.exe is and select the folder.
+1. Sign up for an Occult Watcher Cloud account https://cloud.occultwatcher.net/login#
+2. Install NTP timing using https://github.com/labstercam/occultation-ntp-installer . Install Meinberg NTP, NTP Time Server Monitor, and the PC performance enhancements. Do not install the GPS options unless you have a GPS PPS or NMEA receiver.
+3. Buy SharpCap Pro licence and install the software www.sharpcap.co.uk . Install drivers for your camera and equipment if necessary.
+4. Download and install Occultation Manager add-in for SharpCap https://github.com/labstercam/occultation-tools
+5. Download and install TANGRA3 http://www.hristopavlov.net/Tangra3/
+6. Download and install Occult4, minimal setup (see below)
+7. Install the AOTA addin for TANGRA3. Open TANGRA3, go to Settings | Addins. Select "Occult Tools for Tangra", press 'Configure" then browse to the folder where Occult.exe is and select the folder.
+8. Optionally install Occult Watcher if you want more sophisticated event management and customisable star charts. https://www.occultwatcher.net/ (see below)
+
+
 
 ## Occult4 Minimal Setup
 
@@ -150,8 +154,20 @@ Occult4 generates really nice customisable star charts which are very helpful, b
 
 Minimum required are the GAIA catalog downloads (items 40-43) for the magnitude limit you want (recommend mag 16 for 8"+ telescopes). This can be several GB download and if you have a PC with a small capacity drive (e.g. 64BG) this might be a problem.
 
-## Full Occult4 setup
+### Full Occult4 setup
 You will at some stage want the full Occult4 setup to be able to run predictions, examine asteroid and star information, do muulti-chord occultation analysis, double star analysis etc. So at some stage download all the Occult4 resources and complete the install, following the installation guidance on the webpage and the Occult4 help. You may need help or assitance from an experienced observer. 
+
+## Occult Watcher Setup
+Download and install from https://www.occultwatcher.net/
+
+Open Occult Watcher. You may need to start it from an icon from the Windows start bar, found under the 'up' arrow. Right click to open. 
+
+Follow the configruation instructions here to set up you location and enter your Occult Watcher Cloud credentials. https://www.occultwatcher.net/Configuration.html
+
+Set up the Occult Tools addin to enable prediction details and star charts. Follow the instructions here https://www.occultwatcher.net/MoreAddins.html
+
+Configure which feeds you want to use.
+
 
 
 # Resources
