@@ -1,7 +1,9 @@
 # occultation-how-to-guide
 How to do Occultation observations using modern equipment. A practical step-by-step guide for setting up software and equipment to perform occultations observations
 
-If you just want to jump into the step-by-step instructions go here https://github.com/labstercam/occultation-how-to-guide/blob/main/README.md#getting-started---step-by-step
+If you just want to jump into the step-by-step instructions go here
+
+https://github.com/labstercam/occultation-how-to-guide/blob/main/README.md#getting-started---step-by-step
 
 # What are Occultations?
 An occultation occurs when one celestial body moves in front of another, blocking (occulting) its light. In a lunar eclipse the moon occults the sun.
