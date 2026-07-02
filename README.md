@@ -1,5 +1,7 @@
 # occultation-how-to-guide
-How to do Occultation observations using modern equipment. A practical step-by-step guide for setting up software and equipment to perform occultations observations
+How to do Occultation observations using modern equipment. A practical step-by-step guide for setting up software and equipment to perform occultations observations.
+
+This guide focuses on using modern, generic CMOS astronomy cameras for occultations, using modern SharpCap software. It is intended primarily to help beginners get set up to be able to start doing occultation observations, using their existing astronomy gear at low or no cost. It is not a comprehensive guide to everything to do with occultations.
 
 
 # What are Occultations?
@@ -91,28 +93,26 @@ Need enough storage for recordings (typically a few hundred MB each) so a few GB
 Need internet through WiFi or Ethernet
 
 ## Software
-https://www.sharpcap.co.uk/ For recording and telescope control use SharpCap Pro. License is needed (~$20).  Version 4.1 or later
+For recording and telescope control use **SharpCap Pro**. License is needed (~$20).  Version 4.1 or later. https://www.sharpcap.co.uk/ 
 
-https://github.com/labstercam/occultation-tools Occulation Manager is an add-in for SharpCap that manages and automates occultaiton recording, equipment setup and reporting. Highly recommended as otherwise you have to do a lot manually using many other software tools and systems.
+**Occulation Manager** is an add-in for SharpCap that manages and automates occultation recording, equipment setup and reporting. Highly recommended as otherwise you have to do a lot manually using many other software tools and systems, which is complicated and difficult to learn. https://github.com/labstercam/occultation-tools
 
-TANGRA3 is used for light curve reduction. http://www.hristopavlov.net/Tangra3/
+**TANGRA3** is used for light curve reduction. http://www.hristopavlov.net/Tangra3/
 
-PyMovie/PyOTE is another program for light curver reduction. https://github.com/bob-anderson-ok/py-ote  
+**PyMovie/PyOTE** is another program for light curve reduction. https://github.com/bob-anderson-ok/py-ote  
 
-Personally I prefer TAGNRA3, and it is better integrated with Occultation Manager so will be easier for beginners to get started
+Personally I prefer TANGRA, and it is better integrated with Occultation Manager at the moment so will be easier for beginners to get started
 
-Occult Watcher Cloud account. Sign up here https://cloud.occultwatcher.net/login#
+**Occult Watcher Cloud** account. Sign up here https://cloud.occultwatcher.net/login#
 
-Occult4. http://www.lunar-occultations.com/iota/occult4.htm  Highly sophisticated software for occultation predictions, analysis, reporting etc. Full installateion is recommended once you have gotten established in occultation observations. See install instrucions for the minimum installation required to get started in conjumction with Occultation Manager.
+**Occult4**. Highly sophisticated software for occultation predictions, analysis, reporting etc. Full installation is recommended only once you have gotten established in occultation observations. See install instrucions below for the minimum installation required to get started in conjunction with Occultation Manager. Required if using TANGRA, optional if using PyMovie/PyOTER. http://www.lunar-occultations.com/iota/occult4.htm  
 
-Occult Watcher Desktop (optional). Integrates with Occult Watcher Cloud and manages events with some reporting acability. Occultation Manager does many of the same things so you don't have to use Occult Watcher Desktop to get started. Desktop has better event searching and management, and the main feature is generating star maps (using Occult4 software). You can manage without Occult Watcher Desktop when you are starting out, but recommend to use it.
+**Occult Watcher Desktop** (optional). Integrates with Occult Watcher Cloud and manages events with some reporting acability. Occultation Manager does many of the same things so you don't have to use Occult Watcher Desktop to get started. But Occult Watcher Desktop has better event searching and management, and can generate excellent star maps (using Occult4 software). You can manage without Occult Watcher Desktop when you are starting out, but recommend to use it.
 
-Occult Watcher Mobile (optional). A handy Phone app for listing your events from Occult Watcher Cloud. Currently requires manual side load
-
-Xasteria (optional). A handy phone app that aggregrates weather forecasts etc. ClearOutside and MeteoBlue give good forecasts for New Zealand. Sat24.com gives cloud satellite imagery.
+**Xasteria** (optional). A handy phone app that aggregrates weather forecasts etc. ClearOutside and MeteoBlue give good forecasts for New Zealand. Sat24.com gives cloud satellite imagery.
 
 ## Timing
-For occultations the recording frames must be timestamped with an accuracy of milli-seconds. Timing options include :
+For occultations the recording frames must be timestamped with an accuracy of milli-seconds to UTC. Timing options include:
 1. NTP (Network Time Protocol) on windows PC
 2. GPS PPS timing on windows PC
 3. GPS flash timing (external GPS flasher, DIY build or phone app)
@@ -120,21 +120,22 @@ For occultations the recording frames must be timestamped with an accuracy of mi
 
    
 
-For beginners recommend using NTP timing  on a windows PC as it is free and easy to set up and work with any camera. Use the NTP Installer https://github.com/labstercam/occultation-ntp-installer. This can give timing accuracy of ~5 ms which is good enough to get started. GPS PPS timing can be added later (cheap DIY build) or upgrade to a dedicated GPS camera.
+For beginners recommend using NTP timing on a windows PC as it is free and easy to set up and works with any camera. Use the **NTP Installer** https://github.com/labstercam/occultation-ntp-installer. This can give timing accuracy of ~5 ms which is good enough to get started. GPS PPS timing can be added later (cheap DIY build) or upgrade to a dedicated GPS camera.
 
 
 # Getting Started - Step by Step
 
 Basic setup to begin doing occultations. More complex software can be installed and learnt later
 
-1. Sign up for an Occult Watcher Cloud account https://cloud.occultwatcher.net/login#
-2. Install NTP timing using https://github.com/labstercam/occultation-ntp-installer . Install Meinberg NTP, NTP Time Server Monitor, and the PC performance enhancements. Do not install the GPS options unless you have a GPS PPS or NMEA receiver.
-3. Buy SharpCap Pro licence and install the software www.sharpcap.co.uk . Install drivers for your camera and equipment if necessary.
-4. Download and install Occultation Manager add-in for SharpCap https://github.com/labstercam/occultation-tools
-5. Download and install TANGRA3 http://www.hristopavlov.net/Tangra3/
-6. Download and install Occult4, minimal setup (see below)
-7. Install the AOTA addin for TANGRA3. Open TANGRA3, go to Settings | Addins. Select "Occult Tools for Tangra", press 'Configure" then browse to the folder where Occult.exe is and select the folder.
-8. Optionally install Occult Watcher if you want more sophisticated event management and customisable star charts. https://www.occultwatcher.net/ (see below)
+1. Sign up for an **Occult Watcher Cloud** account https://cloud.occultwatcher.net/login#
+2. Install NTP timing **NTP Installer** using https://github.com/labstercam/occultation-ntp-installer . Installs Meinberg NTP, NTP Time Server Monitor, and the PC performance enhancements. Do not install the GPS options unless you have a GPS PPS or NMEA receiver.
+3. Buy **SharpCap Pro** licence and install the software www.sharpcap.co.uk . Install drivers for your camera and equipment if necessary.
+4. Download and install **Occultation Manager** add-in for SharpCap https://github.com/labstercam/occultation-tools
+5. Download and install **TANGRA3** http://www.hristopavlov.net/Tangra3/
+6. Download and install **Occult4**, minimal setup (see below)
+7. Install the **AOTA addin** for TANGRA3. Open TANGRA3, go to Settings | Addins. Select "Occult Tools for Tangra", press 'Configure" then browse to the folder where Occult.exe is and select the folder.
+8. Optionally install **Occult Watcher** if you want more sophisticated event management and/or customisable star charts. https://www.occultwatcher.net/ (see below)
+9. If you want to use **PyMovie/PyOTE** instead of TANGRA download and install from https://github.com/bob-anderson-ok/py-ote 
 
 
 
@@ -144,7 +145,8 @@ Occult4 is a very sophisticated program with a lot of features that are not need
 
 As a beginner the only Occult4 functionality that is essential is the AOTA analysis. If you choose to use PyMovie/PyOTE you don't need AOTA.
 
-### The minimal setup for Occult4 to use AOTA occultation analysis. Download and minimal install may take 10-20 minutes.
+### The minimal setup for Occult4 to use AOTA occultation analysis.
+Download and minimal install may take 10-20 minutes. Full install takes much longer.
 
 1. Go to http://www.lunar-occultations.com/iota/occult4.htm and follow instructions for download and install using OccultInstaller.zip
 2. Unzip to the required location (see notes on page)
