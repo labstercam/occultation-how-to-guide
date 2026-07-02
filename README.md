@@ -10,10 +10,10 @@ An occultation occurs when one celestial body moves in front of another, blockin
 
 When an asteroid occults a star it briefly blocks the light. By accurately measuring the time of the disappearance and reappearance the position and size of the asteroid can be determined, and sometimes much more.
 
-Asteroid occultations provide the most acurate measurements of asteroid position and size of any method, and can discover rings, moons around asteroid and atmospheres.
+Asteroid occultations provide the most acurate measurements of asteroid position and size of any method, and can discover rings, moons around asteroids and atmospheres.
 
 # What Equipment is Needed?
-If you do astrophotography or planetary imaging you likely already have all the gear needed, just need to add timing.
+If you do astrophotography or planetary imaging you likely already have all the gear needed, just need to add accurate timing.
 
 Just start with what you have and upgrade later if you want.
 
@@ -154,10 +154,10 @@ You will then be prompted to update a lot of data and resources. Again, these ar
 ### Minimal Occult4 download for Occult4 Star Charts
 Occult4 generates really nice customisable star charts which are very helpful, but not essential as Occultation Manager can identify the target star and online catalog images are available. Occult4 star charts are better so recommded to install at some stage.
 
-Minimum required are the GAIA catalog downloads (items 40-43) for the magnitude limit you want (recommend mag 16 for 8"+ telescopes). This can be several GB download and if you have a PC with a small capacity drive (e.g. 64BG) this might be a problem.
+Minimum required are the GAIA catalog downloads (one of the items 40-43) for the magnitude limit you want (recommend mag 16 for 8"+ telescopes). This can be several GB download and if you have a PC with a small capacity drive (e.g. 64BG) this might be a problem.
 
 ### Full Occult4 setup
-You will at some stage want the full Occult4 setup to be able to run predictions, examine asteroid and star information, do muulti-chord occultation analysis, double star analysis etc. So at some stage download all the Occult4 resources and complete the install, following the installation guidance on the webpage and the Occult4 help. You may need help or assitance from an experienced observer. 
+You will at some stage want the full Occult4 setup to be able to run predictions, examine asteroid and star information, do muuti-chord occultation analysis, double star analysis etc. So at some stage download all the Occult4 resources and complete the install, following the installation guidance on the webpage and the Occult4 help. You may need help or assitance from an experienced observer. 
 
 ## Occult Watcher Setup
 Download and install from https://www.occultwatcher.net/
