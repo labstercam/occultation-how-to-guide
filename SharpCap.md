@@ -1,14 +1,14 @@
 # Using SharpCap for Occultations
 
-SharpCap is recommended for occultations as it supports specialist GPS cameras for occultations, uses the ADV occulation video format, and has the Occultation Manager add in available. Robin Glover (developer/owner) has always supported the occultation community and added many feastures specifically for occultations.
+SharpCap is recommended for occultations as it supports specialist GPS cameras for occultations, uses the ADV occulation video format, and has the Occultation Manager add in available. Robin Glover (developer/owner) has always supported the occultation community and added many features specifically for occultations.
 
-SharpCap is the ONLY consumer level software that has known timestamp performance which is essential for accurate timing.
+SharpCap is the ONLY consumer level software that has well known timestamp performance which is essential for accurate timing.
 
 ## General Setup
 
 Some general setup tips.
 1. Set your location coordinates under File | SharpCap Settings | Polar Alignment
-2. Set up for Plate Solving. Use the built in Sharp Solve. Download the SharpSolve databases that suit your field of view. Can work down to ~0.1 degrees FOV
+2. Set up for Plate Solving using the built in SharpSolve
 3. Install Occultation Manager addin
 4. Install the manufacturer's drivers for your camera. Generic ASCOM or DirectShow drivers perform poorly and have limited camera functionality
 
@@ -19,13 +19,13 @@ Set the file naming in SharpCap to make it easy to find and manage you observati
 - Change the Single File (Video) entry to "{Date:SZ}\{Date:SZ} {TargetName} {Time}".
 - Press 'Apply' then 'Ok'
 
-- This will give files names like C:\Users\micha\SharpCap Captures\2026-07-02\2026-07-02 {1} Ceres 15_30_32.adv
+This will give files names like ...\SharpCap Captures\2026-07-02\2026-07-02 {1} Ceres 15_30_32.adv
 
 Alter the main 'Save Capture files to" folder path if you want it in a different path or drive.
 
 <img width="680" height="680" alt="image" src="https://github.com/user-attachments/assets/517fd77b-d634-4b76-bce5-14286b5e0f54" />
 
-### Plate Solving Setup
+## Plate Solving Setup
 SharpCap has a built in plate solver with the 0.5 deg FOV database built in and it works really well. Download the Hi-Res or Ultra Hi-Res databases if you need a smaller FOV. 
 
 Go to File | SharpCap Settings | Plate Solving to set up plate solving.
@@ -33,15 +33,12 @@ Go to File | SharpCap Settings | Plate Solving to set up plate solving.
 SharpCap plate solving will work faster and more reliably if you tell it what the focal length is. Once you know, enter it. Note that if it is a long way from teh actual focal length plate solving will fail. A common mistake is to not reset this when you change telescopes or reducers. Once you plate solve, Sharpcap will update this focal length setting.
 You can measure your field of view and focal length by plate solving an image in SharpCap. It will briefly display these in the notification bar. Or you can calculate your field of view using https://astronomy.tools/calculators/field_of_view/
 
-A small planetary camera at 400 mm focal length has 0.8x0.46 deg FOV so should work with the built-in database. At around 600 mm or longer you will need the Hi-Res database.
+A small planetary camera at 400 mm focal length has 0.8x0.46 deg FOV so should work with the built-in database. At around 600 mm or longer you will need the Hi-Res database with a small planetary camera.
 
 
 <img width="680" height="680" alt="image" src="https://github.com/user-attachments/assets/ea32aa37-c89b-4c26-a225-952695376886" />
 
-
-
-
-   
+ 
 
 ## Camera Setup for Occultations
 
