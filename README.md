@@ -5,7 +5,7 @@ This guide focuses on using modern, generic CMOS astronomy cameras for occultati
 
 
 # What are Occultations?
-An occultation occurs when one celestial body moves in front of another, blocking (occulting) its light. In a lunar eclipse the moon occults the sun.
+An occultation occurs when one celestial body moves in front of another, blocking (occulting) its light. In a solar eclipse the moon occults the sun.
 
 When an asteroid occults a star it briefly blocks the light. By accurately measuring the time of the disappearance and reappearance the position and size of the asteroid can be determined, and sometimes much more.
 
