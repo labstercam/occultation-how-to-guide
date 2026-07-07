@@ -9,7 +9,7 @@ An occultation occurs when one celestial body moves in front of another, blockin
 
 When an asteroid occults a star it briefly blocks the light. By accurately measuring the time of the disappearance and reappearance the position and size of the asteroid can be determined, and sometimes much more.
 
-Asteroid occultations provide the most acurate measurements of asteroid position and size of any method, and can discover rings, moons around asteroids and atmospheres.
+Asteroid occultations provide the most accurate measurements of asteroid position and size of any method, and can discover rings, moons around asteroids and atmospheres.
 
 # Quick Start
 If you just want to jump into the step-by-step instructions for the minimum software setup required go here: https://github.com/labstercam/occultation-how-to-guide/blob/main/README.md#getting-started---step-by-step
