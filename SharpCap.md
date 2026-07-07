@@ -76,14 +76,16 @@ MONO8 is 1/4 the file size and may have higher frame rates, so you might have to
 
 ### Gain
 
-Use medium to high gain, roughly 2/3 of maximum. CMOS cameras have lower read noise at higher gain and will perform better. Check your camera for the gain setting where it switches from Low Gain Conversion (LGC) to High Gain Conversion (HGC). Only use it in the HGC range unless you have major saturation problems with bright stars.
+Use medium to high gain, roughly 2/3 of maximum. CMOS cameras have lower read noise at higher gain and will perform better. Check your camera for the gain setting where it switches from Low Conversion Gain (LCG) to High Conversion Gain (HCG). Always use it in the HCG range unless you have major saturation problems with bright stars.
 
-Do not use unity gain or low gain. It will be noisy, and the low signal level with MONO16 will confuse TANGRA.
+Do not use unity gain or low gain. It will be noisy, and the low signal level with MONO16 will confuse TANGRA and might be impossible to analyse.
+
+Some cameras have a High Dynamic Range (HDR) mode which processes faint and bright parts of the image differently. The effect on occultation processing and timing is unknown so DO NOT USE HDR MODE
 
 ### ROI - Region of Interest, tilt and pan
 Reduce the ROI to around 0.2 deg. This is a good FOV for most occultation work.
 
-If you don't have tracking and are doing prepoint or drift through you may need to use thr full sensor size. But it will greatly increase the file size and reduce the max frame rate.
+If you don't have tracking and are doing prepoint or drift through you may need to use the full sensor size. But it will greatly increase the file size and reduce the max frame rate.
 
 Tilt and pan usually don't matter, but you MUST use the same tilt and pan settings as you have calibrated the camera acqusition delays.
 
