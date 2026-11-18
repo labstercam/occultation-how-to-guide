@@ -12,13 +12,15 @@ When an asteroid occults a star it briefly blocks the light. By accurately measu
 Asteroid occultations provide the most accurate measurements of asteroid position and size of any method, and can discover rings, moons around asteroids and atmospheres.
 
 # Quick Start
-If you just want to jump into the step-by-step instructions for the minimum software setup required go here: https://github.com/labstercam/occultation-how-to-guide/blob/main/README.md#getting-started---step-by-step
+If you just want to jump into the step-by-step instructions for the minimum software setup required go here: [Getting Started](https://github.com/labstercam/occultation-how-to-guide/blob/main/README.md#getting-started---step-by-step)
 
-For information on how to set up SharpCap for occultations go here: https://github.com/labstercam/occultation-how-to-guide/blob/main/SharpCap.md
+For information on how to set up SharpCap for occultations go here: [Using SharpCap for Occultations](https://github.com/labstercam/occultation-how-to-guide/blob/main/SharpCap.md)
 
-For tips on target finding go here: https://github.com/labstercam/occultation-how-to-guide/blob/main/Target%20Finding.md
+For **essential setup** to ensure good timing performance go here: [Setup for Accurate PC Timing](https://github.com/labstercam/occultation-how-to-guide/blob/main/Setup%20for%20Accurate%20PC%20Timing.md)
 
-For resources include comprehensive guides see Resources https://github.com/labstercam/occultation-how-to-guide/blob/main/README.md#resources
+For tips on target finding go here: [Target Finding](https://github.com/labstercam/occultation-how-to-guide/blob/main/Target%20Finding.md)
+
+For resources include comprehensive guides see [Resources](https://github.com/labstercam/occultation-how-to-guide/blob/main/README.md#resources)
 
 
 # What Equipment is Needed?
@@ -140,6 +142,8 @@ Basic setup to begin doing occultations. More complex software can be installed 
 
 
 ## Occult4 Minimal Setup
+
+**Note:** Tangra has a new TOTA analysis feature which can replace the AOTA analysis. So you may not need to install Occult4 to get started - see how you go using Tangra/TOTA first
 
 Occult4 is a very sophisticated program with a lot of features that are not needed when you are starting out, so recommend either the following minimal installs to just keep it easy, or do the full install and take you time to learn how to use Occult4 as necessary.
 
